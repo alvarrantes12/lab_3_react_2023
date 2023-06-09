@@ -1,0 +1,43 @@
+.delete-container {
+    background-color: #6d1919;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .delete-container h3 {
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .delete-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .delete-container input[type="text"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #8d1919fa;
+    border-radius: 4px;
+  }
+  
+  .delete-container button.btn-red {
+    background-color: #443131;
+    color: #8d1919fa;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .delete-container button.btn-red:hover {
+    background-color: #8f0202;
+  }
+  
