@@ -54,9 +54,3 @@ function Home() {
 };
 
 export default Home;
-
-// <New setRefresh={setRefresh}/>
-
-//       <Edit setRefresh={setRefresh}/>
-
-//       <Delete setRefresh={setRefresh}/>
