@@ -1,0 +1,17 @@
+ .action-container{
+    margin-bottom: 5px;
+ }
+
+ .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+ }
+
+ .action > * {
+    display: inline-block;
+    margin-right: 5px;
+ }
+
+
+ 

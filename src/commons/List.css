@@ -1,0 +1,28 @@
+.list-container {
+    background-color: #9f5252;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    height: 200px;
+  }
+  
+  .list-header {
+    padding: 0 4em;
+    
+  }
+  
+  .list-table {
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  .list-table tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  .list-table td, .list-table th {
+    border: 1px solid black;
+    padding: 8px;
+  }
