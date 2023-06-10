@@ -9,7 +9,7 @@ function Home() {
   const [refresh, setRefresh] = useState(true)
 
   return(
-    <div className='actions-container'>
+    <div>
         <Index refresh={refresh} setRefresh={setRefresh}/>
         <div className='actions'>
           <New setRefresh={setRefresh}/>

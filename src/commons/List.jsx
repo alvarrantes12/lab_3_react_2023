@@ -5,7 +5,7 @@ const List = ({contents}) => {
     if(!contents || contents.length === 0)return <p>No hay contenido sobre las peliculas</p>
 
     return (
-        <div className="list-container">
+        <div>
             <h4 style={{margin: "4px", fontSize: "1em"}} >Estos son los datos disponibles</h4>
             <table className="list-table">
                 <tr>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { getFetch } from '../../commons/ApiMethods';
 import WithLoadingState from '../../commons/WithLoadingState';
 import List from '../../commons/List';
+import './index.css';
 
 function Index ({ refresh, setRefresh }) {
   const LoadingList = WithLoadingState(List)
@@ -19,10 +20,10 @@ function Index ({ refresh, setRefresh }) {
   }, [setContents, setLoading, refresh])
 
   return (
-    <>
+    <div className="container">
       <h2 style={{margin: "4px", fontSize: "0.8em"}}>Primera conexión con API local</h2>
       <LoadingList isLoading={loading} contents={contents} />
-    </>
+    </div>
 
   )
 }
