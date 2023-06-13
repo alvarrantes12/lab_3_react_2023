@@ -21,12 +21,12 @@ function Delete ({ setRefresh }) {
 
     return (
         <div>
-            <form onSubmit={handleDelete}>
-                <div>
-                    <input type="text" value={idDelete} placeholder='ID Película' onChange={(e) => {setIdDelete(e.target.value); }} />
+            <form onSubmit={handleDelete} style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                <button type='submit' style={{ marginBottom: "1em", padding: "0.5em 1em", fontSize: "1em", backgroundColor: "red", border: "none", borderRadius: "4px", cursor: "pointer" }}>Eliminar</button>
+                <div style={{ marginBottom: "0.5em" }}>
+                    <input type="text" value={idDelete} placeholder='ID (Peli)' onChange={(e) => { setIdDelete(e.target.value); }} style={{ padding: "0.5em", borderRadius: "4px", border: "1px solid lightgray" }} />
                 </div>
                 <div>{messageDelete ? <p>{messageDelete}</p> : <br />}</div>
-                <button type='submit'>Eliminar Película</button>
             </form>
         </div>
     )
