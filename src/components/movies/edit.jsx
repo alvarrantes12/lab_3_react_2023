@@ -40,7 +40,7 @@ function Edit({ setRefresh }) {
 						onChange={(e) => {setNameEdit(e.target.value)}} />
 				</div>
 				<div>{message ? <p>{message}</p> : <br />}</div>
-				<button className="btn-green" type="submit">Guardar cambios</button>
+				<button type="submit">Guardar cambios</button>
 			</form>
 		</div>
 	)

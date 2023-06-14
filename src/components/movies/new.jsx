@@ -24,7 +24,7 @@ function New({ setRefresh }) {
 	}
 
 	return(
-		<div className="div-color">
+		<div>
 			<h3>Crear una película</h3>
 			<form onSubmit={handleSubmit}>
 				<div>
@@ -49,7 +49,7 @@ function New({ setRefresh }) {
 						onChange={(e) => {setDirector_id(e.target.value)}} />
 				</div>
 				<div>{message ? <p>{message}</p> : <br />}</div>
-				<button className="btn-green" type="submit">Crear</button>
+				<button type="submit">Crear</button>
 			</form>
 		</div>
 	)

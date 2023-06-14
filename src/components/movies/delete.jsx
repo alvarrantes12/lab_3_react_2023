@@ -20,7 +20,7 @@ function Delete({ setRefresh }) {
   }
 
   return(
-    <div className="div-color">
+    <div>
       <h3>Eliminar una película</h3>
       <form onSubmit={handleDelete}>
         <div>
@@ -31,7 +31,7 @@ function Delete({ setRefresh }) {
             onChange={(e) => {setIdDelete(e.target.value)}} />
         </div>
         <div>{message ? <p>{message}</p> : <br />}</div>
-        <button className="btn-red" type="submit">Eliminar</button>
+        <button type="submit">Eliminar</button>
       </form>
     </div>
   )
